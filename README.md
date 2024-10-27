@@ -1,4 +1,4 @@
-#チーム食品ロス（仮）
+#アンチ・フードロス
 
 [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2024/07/JPHACKS2024_ogp.jpg)](https://www.youtube.com/watch?v=DZXUkEj-CSI)
 

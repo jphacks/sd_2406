@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class addfoodtext : MonoBehaviour
 {
     [SerializeField] GameObject Panel;
+    [SerializeField] GameObject Panel2;
     public InputField food;
     public InputField Due_Date;
     public Text food_text;
@@ -44,6 +45,7 @@ public class addfoodtext : MonoBehaviour
     public void Btn()
     {
         Panel.SetActive(true);
+        Panel2.SetActive(false);
     }
     public void foodList()
     {

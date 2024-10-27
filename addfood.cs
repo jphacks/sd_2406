@@ -22,4 +22,16 @@ public class addfood : MonoBehaviour
     {
         SceneManager.LoadScene("addfood");
     }
+    public void addmenu()
+    {
+        SceneManager.LoadScene("addmenu");
+    }
+    public void foodlist()
+    {
+        SceneManager.LoadScene("foodlist");
+    }
+    public void title()
+    {
+        SceneManager.LoadScene("Title");
+    }
 }

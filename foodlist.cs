@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class foodlist : MonoBehaviour
 {
-    public List<string> list_foodlist = new List<string>();
-    public List<string> list_Duelist = new List<string>();
-    private int list_count = 0;
+    public static List<string> list_foodlist = new List<string>();
+    public static List<string> list_Duelist = new List<string>();
+    public static int list_count = 0;
     public Text Text0;
     public Text Text1;
     public Transform parent;
@@ -20,6 +21,7 @@ public class foodlist : MonoBehaviour
         list_Duelist = addfoodtext.list_Due;
         list_count = list_foodlist.Count;
         Debug.Log(list_count);
+        list_Duelist.Sort();
         for (int i = 0; i < list_count; i++)
         {
             Text Text2 = Instantiate(Text1, parent);
